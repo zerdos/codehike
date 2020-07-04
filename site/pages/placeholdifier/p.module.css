@@ -1,0 +1,6 @@
+.page :global(.extension-icon) {
+  margin: 3px 10px 0 6px !important;
+}
+.first :global(.extension-icon) img {
+  box-shadow: 0 0 3px 3px #60f860;
+}
