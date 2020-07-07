@@ -38,7 +38,7 @@ function Bar({ url }: { url: string }) {
       <Forward />
       <Refresh />
       <input value={url} readOnly />
-      <Open href={url} />
+      <Open />
     </>
   );
 }

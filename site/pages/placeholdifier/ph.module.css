@@ -1,0 +1,23 @@
+.page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: salmon;
+}
+
+.page :global(.extension-icon) {
+  cursor: pointer;
+}
+
+.page :global(.ch-title-bar) > svg {
+  display: none;
+}
+
+.page :global(.ch-title-bar) > input {
+  width: 90px;
+}
+
+.page :global(.ch-title-bar) {
+  /* background: rgb(230, 236, 239); */
+}

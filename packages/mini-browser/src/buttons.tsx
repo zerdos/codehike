@@ -46,15 +46,14 @@ function Refresh() {
   );
 }
 
-function Open({ href }: { href: string }) {
+function Open() {
   return (
     <a
       className="extension-icon"
       style={{ margin: "2px 10px 0 6px", color: "inherit" }}
-      title="Open in new tab"
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
+      onClick={() =>
+        document.getElementById("content")?.classList.toggle("placeholdify")
+      }
     >
       <img src="/icon.png" style={{ width: 16 }} />
     </a>
